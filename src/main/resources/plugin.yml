@@ -1,0 +1,32 @@
+name: WeirdishChat
+version: '${version}'
+main: cepteas.weirdishchat.WeirdishChat
+api-version: '1.20'
+depend:
+  - packetevents
+
+commands:
+  chat:
+    usage: "/<cmd> <whatever you want to say>"
+    description: "allows you to chat"
+    aliases:
+      - c
+      - t
+      - /
+      - speak
+      - text
+      - howspeak
+      - spk
+      - talk
+      - e
+      - w
+      - a
+      - s
+      - d
+      - wc
+  weirdishpl:
+    usage: "plugins"
+    description: "Fixes the /plugin issue"
+    aliases:
+      - bukkit:pl
+      - bukkit:plugins
